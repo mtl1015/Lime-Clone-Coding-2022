@@ -38,19 +38,19 @@
   margin-bottom: 5px;
   border: 0.5px dotted rgba(0, 0, 0, 0.2);
   height: 28px;
-  font-size: 9px;
+  font-size: 13px;
 }
 .login2__input__number {
   border: 0.5px dotted rgba(0, 0, 0, 0.2);
   height: 28px;
-  font-size: 9px;
+  font-size: 13px;
 }
 .login2__input__button {
   margin-top: 6px;
   height: 28px;
   background-color: rgba(0, 0, 0, 0.2);
   border: none;
-  font-size: 8px;
+  font-size: 12px;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.5);
 }
@@ -58,7 +58,7 @@
   height: 28px;
   background-color: rgba(0, 0, 0, 0.2);
   border: none;
-  font-size: 8px;
+  font-size: 12px;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.5);
 }
@@ -69,12 +69,12 @@
 }
 .login__input__checkbox1 span {
   margin-bottom: 3px;
-  font-size: 3px;
+  font-size: 12px;
   color: rgba(0, 0, 0, 0.7);
 }
 .login__input__checkbox2 {
   margin-bottom: 3px;
-  font-size: 5px;
+  font-size: 12px;
   display: flex;
   align-items: center;
   color: rgba(0, 0, 0, 0.7);
@@ -97,7 +97,7 @@
 .login__input__email {
   position: absolute;
   bottom: 18px;
-  font-size: 9px;
+  font-size: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -118,13 +118,13 @@
   margin: 15px 27px;
 }
 .login__second__space-for-sentence div {
-  font-size: 11px;
+  font-size: 14px;
   font-weight: 800;
   text-align: center;
   margin-bottom: 10px;
 }
 .login__second__space-for-sentence p {
-  font-size: 6px;
+  font-size: 12px;
   text-align: center;
   color: rgba(0, 0, 0, 0.7);
   line-height: 15px;
