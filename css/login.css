@@ -1,0 +1,131 @@
+.login {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+}
+.login__first {
+  padding: 0px 30px;
+  width: 60%;
+  height: 100vh;
+  border-right: 0.5px dotted rgba(0, 0, 0, 0.2);
+}
+.login__status {
+  display: flex;
+  justify-content: flex-start;
+  margin: 2px 2px;
+  color: rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.fa-bars {
+  margin-right: 10px;
+}
+.login__main {
+  margin: 30px 0px;
+  color: #04cf5c;
+  font-size: 28px;
+  font-weight: bolder;
+  text-align: center;
+}
+.login__input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4px;
+}
+.login__input__number {
+  margin-bottom: 5px;
+  border: 0.5px dotted rgba(0, 0, 0, 0.2);
+  height: 28px;
+  font-size: 9px;
+}
+.login2__input__number {
+  border: 0.5px dotted rgba(0, 0, 0, 0.2);
+  height: 28px;
+  font-size: 9px;
+}
+.login2__input__button {
+  margin-top: 6px;
+  height: 28px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: none;
+  font-size: 8px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.5);
+}
+.login__input__button {
+  height: 28px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: none;
+  font-size: 8px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.5);
+}
+.login__input__checkbox1 {
+  display: flex;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.7);
+}
+.login__input__checkbox1 span {
+  margin-bottom: 3px;
+  font-size: 3px;
+  color: rgba(0, 0, 0, 0.7);
+}
+.login__input__checkbox2 {
+  margin-bottom: 3px;
+  font-size: 5px;
+  display: flex;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.7);
+}
+.login__second {
+  width: 40%;
+  height: 100vh;
+}
+.login__status-second {
+  display: flex;
+  justify-content: flex-end;
+  color: rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+  margin-top: 10px;
+  margin-right: 4px;
+}
+.login__status-second i {
+  margin-left: 5px;
+}
+.login__input__email {
+  position: absolute;
+  bottom: 18px;
+  font-size: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login__input__email div {
+  margin-right: 4px;
+}
+.login__second__space-for-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login__second img {
+  width: 96px;
+  height: 96px;
+}
+.login__second__space-for-sentence {
+  margin: 15px 27px;
+}
+.login__second__space-for-sentence div {
+  font-size: 11px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.login__second__space-for-sentence p {
+  font-size: 6px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.7);
+  line-height: 15px;
+}

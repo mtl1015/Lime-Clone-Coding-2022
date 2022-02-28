@@ -1,0 +1,17 @@
+#splash-screen {
+  position: absolute;
+  z-index: 99;
+  height: 100vh;
+  width: 100vw;
+  background-color: #04cf5c;
+  display: flex;
+  top: 0;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+}
+@media screen and (max-height: 420px) {
+  #splash-screen {
+    display: none;
+  }
+}

@@ -1,0 +1,23 @@
+.main1__bar {
+  width: 9%;
+  height: 100vh;
+  background-color: rgb(53, 47, 90);
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+
+  position: fixed;
+}
+.main1__bar div i:hover {
+  color: #04cf5c;
+}
+.main1__bar div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main1__bar div i {
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 30px;
+  transition: color 0.2s ease-in-out;
+}
