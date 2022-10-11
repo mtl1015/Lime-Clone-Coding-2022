@@ -40,6 +40,9 @@
   height: 28px;
   font-size: 13px;
 }
+.login__input__number::placeholder {
+  color: rgba(0, 0, 0, 0.2);
+}
 .login2__input__number {
   border: 0.5px dotted rgba(0, 0, 0, 0.2);
   height: 28px;

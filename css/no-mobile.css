@@ -9,9 +9,22 @@
   align-items: center;
   justify-content: center;
   font-size: 40px;
+  font-weight: 600;
+  color: white;
 }
-@media screen and (max-height: 420px) {
+@media screen and (max-height: 480px) {
   #splash-screen {
     display: none;
+  }
+}
+@media (orientation: portrait) {
+  html {
+    transform: rotate(-90deg);
+    transform-origin: top left;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100vh;
+    height: 100vw;
   }
 }

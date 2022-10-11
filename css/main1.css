@@ -135,10 +135,8 @@
 @keyframes rotateLime {
   from {
     transform: rotate(360deg);
-    opacity: 1.4;
   }
   to {
-    opacity: 1;
     transform: none;
   }
 }
@@ -161,6 +159,7 @@
 }
 .main1__chatspace div {
   font-size: 12px;
-  color: rgba(0, 0, 0, 0.5);
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.2);
   animation: largeSentence 1.5s ease-in-out infinite;
 }
